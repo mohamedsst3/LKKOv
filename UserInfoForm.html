@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ecom-web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="User-Inforform.css">
+    <link rel="stylesheet" href="./build/css/demo.css">
+    <link rel="stylesheet" href="./build/css/intlTelInput.css">
+</head>
+<body>
+    
+  <div class="header_container">
+        
+
+       
+
+    <div class="logo">
+        <img src="downloaded (3).png" alt="LOGO " > 
+      </div>
+
+    <div class="Navbar" onclick="OpenNavList()"><img src="icons8-menu-50.png" alt=""></div>
+    
+    <div class="header_list">
+        <ul>
+            <li><a href="" style="color: rgb(255, 255, 255); text-decoration: none;">Home</a></li>
+            <li>New Released</li>
+            <li>Categories</li>
+             <li>Gifts</li> 
+            <li>service</li>
+            <li>Language</li>
+        </ul>
+        <div class="user_profile">
+            <img src="lebanon-img.jpg" alt="">
+
+            <div>Mohamed</div>
+        </div>
+    </div>
+
+
+
+        
+</div>
+
+<div class="dropdown-menu" id="dropmenu">
+  <div class="profile">
+      <img src="lebanon-img.jpg" alt="">
+      <span >Mohamed</span>
+  </div>
+  <hr>
+  <div class="navlist">
+      <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">New Released</a></li>
+          <li><a href="">service</a></li>
+          <li><a href="">Language</a></li>
+       
+      </ul>
+  </div>
+</div>
+
+<div class="dropdown-menu" id="dropmenu">
+  <div class="profile">
+      <img src="lebanon-img.jpg" alt="">
+      <span >Mohamed</span>
+  </div>
+  <hr>
+  <div class="navlist">
+      <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">New Released</a></li>
+          <li><a href="">service</a></li>
+          <li><a href="">Language</a></li>
+       
+      </ul>
+  </div>
+</div>
+
+<hr>
+
+  
+      
+    <div class="box">
+
+      <div class="formfield">
+        <h2 style="margin-left: 20px;">Enter Your Information </h2>
+        <form action="">
+            <input type="text" class="name" placeholder="Your Full Name">
+
+            <input type="email" class="email" placeholder="Your Email">
+
+
+            <input type="tel" name="PhoneNumber" id="phone" class="PhoneNumber" placeholder="Phone Number">
+
+            
+            <textarea name="address" id="address" placeholder="Enter Your Full Address To Deliver." style="padding: 15px; margin: 10px; width: 82%; border-radius: 10px;"></textarea>
+
+
+            <input type="checkbox" name="" id="paymethod" placeholder="btgr" value="fejhfe" >
+            <span style="margin-left: 10px;">pay on delivery</span>
+            
+           
+         
+             
+            <button type="submit">Submit</button>
+        </form>
+        
+      </div>
+
+  
+      
+
+      <div class="product_container">
+
+        <div class="product_img">
+          <img src="computer-img.png" alt="">
+  
+        </div>
+          
+        <div class="product_name"><h2>HP Omen Computer</h2></div>
+
+        <div class="product_description">i7-8750H GTX 1060 120 HZ Screen</div>
+        
+      </div>
+
+      <div class="invoice">
+        <div class="Product_price"><h2>Product Price: 450$</h2></div>
+        <div class="delivery_fees"><h2>Delivery Fees: 3$</h2></div>
+        <div class="totoal_price"> <h1 style="color: rgb(73, 141, 73);">Total Amount: 453$</h1></div>
+      </div>
+
+    </div>
+
+
+    <footer>
+        <div class="copywrite">Stuff Home</div>
+        <br>
+        <hr>
+        <br>
+        <div class="help">Help Line Number : +1 1800 1200 1200
+        </div>
+        <div class="copywrite">2024 Copy Write</div>
+    </footer>
+
+
+    <script src="main.js"></script>
+
+      <script src="./build/js/intlTelInput.js"></script>
+      <script>
+        var input = document.querySelector('#phone');
+        window.intlTelInput(input, {})
+
+      </script>
+
+</body>
+</html> 

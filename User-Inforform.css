@@ -1,0 +1,142 @@
+
+.formfield {
+
+    display: inline-block;
+    width: 300px;
+    margin-left: 15%;
+    /* margin-top: 32px; */
+    margin: 30px 0px 0px 90px;
+}
+
+
+.formfield form input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.formfield form button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #d2b617;
+    border: none;
+    margin-left: 50px;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    color: black;
+}
+
+
+
+#paymethod {
+   width: 30px;
+  height: 20px;
+ 
+}
+
+.product_container{
+    float: right;
+    height: 26;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+ 
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid black;
+}
+
+
+.product_container .product_img img {
+    width: 100px;
+    
+}
+
+.invoice{
+    display: inline-block;
+    margin: 270px 0px 0px 100px;
+}
+
+
+.box{
+    margin: 120px 10%;
+   background-color: rgb(230, 228, 228);
+   box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.1);
+   width: 75%;
+   display: inline-block;
+   
+   border-radius: 10px;
+}
+
+.product_description{
+
+
+    width: 105px;
+   margin-left: 5px;
+}
+.product_name{
+        width: 100px;
+}
+
+
+footer{
+    /* margin-top: 300px; */
+    width: 100%;
+}
+
+
+
+@media (max-width:1189px) {
+    .invoice{
+        margin: 50px  0px 0px 220px;
+    }
+}
+
+@media (max-width:775px) {
+   
+    .product_container{
+        float: right;
+        margin: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-left: 2px solid black;
+    }
+
+    .box{
+        width: 90%;
+        margin: 120px 5%;
+    }
+}
+
+@media (max-width:580px){
+
+ 
+    .invoice{
+        margin: 10% 0px 20px 140px;
+    }
+
+    .product_container{
+        float: none;
+        margin: 40px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-left: 2px solid black;
+    }
+}
+
+@media (max-width: 420px){
+    .formfield{
+        margin:  30px 0px 0px 13%;
+    }
+
+    .invoice{
+        
+            margin: 10% 0px 20px 120px;
+        
+    }
+}
